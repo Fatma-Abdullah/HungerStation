@@ -11550,7 +11550,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #1a1a1a;
-  padding: 6em 0 0 0;
+  padding: 0;
 }
 
 .ftco-footer .ftco-footer-logo {
@@ -12599,4 +12599,7 @@ textarea.form-control {
     background-position: center center !important;
     background-size: 100% 100%;
   }
+}
+footer .ftco-section {
+  padding: 2.5em 2em 0 2em;
 }
