@@ -12566,36 +12566,6 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
-@media (max-width: 576px) {
-  .contact-section .dbox {
-    width: 100%;
-    background: #e52b34;
-    padding: 1em;
-    border-radius: 4px;
-  }
-  #contact .col-md-3.d-flex {
-    margin: 5px 0;
-  }
-  .ftco-section {
-    padding: 3em;
-  }
-  .features .img img {
-    border-radius: 15px;
-    width: 78%;
-    height: 175px;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    margin-bottom: 15px;
-  }
-  .app .owl-carousel, .app .owl-carousel .owl-stage-outer {
-    height: 356px;
-  }
-  .app .owl-carousel.home-slider .slider-item {
-    background-position: center center !important;
-    background-size: 100% 100%;
-  }
-}
 footer .ftco-section {
   padding: 2.5em 2em 0 2em;
 }
@@ -12647,4 +12617,38 @@ body{
 }
 #contact{
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  .contact-section .dbox {
+    width: 100%;
+    background: #e52b34;
+    padding: 1em;
+    border-radius: 4px;
+  }
+  #contact .col-md-3.d-flex {
+    margin: 5px 0;
+  }
+  .ftco-section {
+    padding: 3em;
+  }
+  .features .img img {
+    border-radius: 15px;
+    width: 78%;
+    height: 175px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .app .owl-carousel, .app .owl-carousel .owl-stage-outer {
+    height: 356px;
+  }
+  .app .owl-carousel.home-slider .slider-item {
+    background-position: center center !important;
+    background-size: 100% 100%;
+  }
+  .p-md-5 {
+    padding: 0 !important;
+}
 }
