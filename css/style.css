@@ -12082,10 +12082,6 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.contact-section .contact-info p a {
-  color: #fff;
-}
-
 .contact-section .contact-info p span {
   text-transform: uppercase;
   font-weight: 700;
@@ -12602,4 +12598,53 @@ textarea.form-control {
 }
 footer .ftco-section {
   padding: 2.5em 2em 0 2em;
+}
+p{
+  color: #000000;
+}
+.BoldLG{
+  font-size: 32px;
+  font-weight: 700;
+}
+ .itemTitle{
+  color: #000000;
+  font-size: 40px;
+}
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+body{
+  font-family: 'Helvetica Neue', sans-serif;
+}
+.item{
+  margin: 1em 0 2em 0;
+}
+.logo{
+  margin: 2em;
+}
+.btn-white{
+  font-size: 18px;
+  font-weight: 300;
+  fill: #000000;
+  color: #000000;
+  background-color: #F8F8F8;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  width: 250px;
+  padding: 15px;
+  
+}
+.spacing{
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+#contact i {
+  transform: rotate(0deg);
+  font-size:50px;
+}
+#contact{
+  text-align: center;
 }
