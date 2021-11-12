@@ -12651,3 +12651,35 @@ body{
 #contact{
   text-align: center;
 }
+.item .row{
+  display: flex;
+  align-items: center;
+}
+.directionRTL{
+  direction: rtl;
+}
+.directionLTR{
+  direction: ltr;
+}
+.hero-wrap .wrap-item {
+  padding: 8em 3em;
+  display: flex;
+  align-items: center;
+}
+.app .owl-carousel.home-slider .owl-dots {
+  bottom: 25px;
+}
+.owl-carousel .owl-dots .owl-dot:after {
+  background: gray;
+  border-color: gray;
+}
+.owl-carousel .owl-dots .owl-dot.active:after {
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+.owl-carousel.home-slider .owl-dots .owl-dot {
+    width: 5px;
+    height: 5px;
+    margin: 8px;
+}
