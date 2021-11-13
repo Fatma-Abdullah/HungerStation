@@ -261,6 +261,7 @@ textarea {
   resize: vertical;
 }
 
+
 fieldset {
   min-width: 0;
   padding: 0;
@@ -10575,7 +10576,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   bottom: 0;
   content: '';
   opacity: .4;
-  background: #000000;
+  /* background: #000000; */
+  background-image: linear-gradient( 
+    180deg, #35363A 11%, #F2295B00 75%);
+        opacity: 0.87;
 }
 
 .hero-wrap.hero-wrap-2 {
@@ -12630,9 +12634,11 @@ body{
   direction: ltr;
 }
 .hero-wrap .wrap-item {
-  padding: 8em 3em;
+  padding: 11em 3em;
   display: flex;
   align-items: center;
+  background-position: center;
+
 }
 .app .owl-carousel.home-slider .owl-dots {
   bottom: 25px;
