@@ -12697,6 +12697,8 @@ body{
     padding: 2em 0em;
     display: flex;
     align-items: center;
+    background-size: cover;
+
   }
   h2{
     font-size: 20px;
