@@ -12682,7 +12682,7 @@ body{
     margin-bottom: 15px;
   }
   .app .owl-carousel, .app .owl-carousel .owl-stage-outer,.slider-item , .owl-item, .owl-carousel.home-slider .slider-item {
-    height: 450px;
+    height: 500px;
   }
   .app .owl-carousel.home-slider .slider-item , .owl-item, .owl-carousel.home-slider .slider-item{
     background-position: center center !important;
